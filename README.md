@@ -1,3 +1,40 @@
+# JOGO-RPG
+
+Pequeno jogo de RPG em Java (console).
+
+Como rodar localmente
+
+1. Instale o JDK 21 (LTS)
+	- Windows: baixe do Adoptium/Eclipse Temurin ou Oracle e instale.
+	- Verifique com:
+	  ```powershell
+	  java -version
+	  javac -version
+	  ```
+
+2. Compilar e rodar (PowerShell):
+	```powershell
+	.\run.ps1
+	```
+
+	Ou em Bash:
+	```bash
+	./run.sh
+	```
+
+Observações
+- Este projeto não usa Maven/Gradle: basta o JDK e os comandos `javac`/`java`.
+- Fiz pequenas melhorias para evitar exceções em ambientes sem entrada interativa (EOF) e adicionei um modo demo automático.
+
+Criar Pull Request
+
+Se preferir criar o PR manualmente, abra:
+
+https://github.com/loock940/JOGO-RPG/pull/new/upgrade-java-21
+
+Criação automática de PR
+
+Se quiser que eu crie o PR automaticamente, posso tentar usar a CLI `gh` (GitHub CLI) se estiver instalada e autenticada localmente. Se preferir, forneça um token GitHub com permissões `repo` e eu explico como usar.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
